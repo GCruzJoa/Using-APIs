@@ -13,7 +13,7 @@
         <ListView x:Name="TeamsList" IsVisible="{Binding IsNotBusy}" ItemsSource="{Binding Teams}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Name}" TextColor="Black"/>
+                    <TextCell Text="{Binding Name}" TextColor="Black" Detail="{Binding Sport}"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
