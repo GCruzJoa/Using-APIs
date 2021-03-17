@@ -17,7 +17,7 @@ https://sportscore1.p.rapidapi.com/teams
 ### Screenshots
 </p>
 <p align="center">
- <img width="240" height:"200" src="App Screenshots/1.jpg" title="Captura 1"/> 
- <img width="240" height:"200" src="App Screenshots/2.jpg" title="Captura 2"/> 
- <img width="240" height:"200" src="App Screenshots/3.jpg" title="Captura 3"/>
+ <img width="240" height:"200" src="App Screenshots/1.jpg" title="Image 1"/> 
+ <img width="240" height:"200" src="App Screenshots/2.jpg" title="Image 2"/> 
+ <img width="240" height:"200" src="App Screenshots/3.jpg" title="Image 3"/>
 </p>
