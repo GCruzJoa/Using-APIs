@@ -1,4 +1,4 @@
-# Using_APIs
+# Using APIs
 Using a Sport Api with Xamarin Forms.
 
 ### API
