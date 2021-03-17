@@ -1,5 +1,5 @@
 # Using APIs
-Using a Sport Api with Xamarin Forms.
+Using a Sports Api with Xamarin Forms.
 
 ### API
 https://tipsscore.com/api/documentation
