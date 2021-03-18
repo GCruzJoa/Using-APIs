@@ -7,6 +7,8 @@ namespace Using_APIs.Services
 {
     public class TeamApiService : ITeamApiService
     {
+        ISerializerService serializerService = new SerializerService();
+
         public async Task<Team> GetSportsTeamsAsync()
         {
             Team SportsTeams = null;
@@ -24,7 +26,7 @@ namespace Using_APIs.Services
             var response = await client.SendAsync(request);
             if (response.IsSuccessStatusCode)
             {
-                SportsTeams = JsonConvert.DeserializeObject<Team>(await response.Content.ReadAsStringAsync());
+                SportsTeams = serializerService.Deserialize<Team>(await response.Content.ReadAsStringAsync());
             }
             return SportsTeams;
         }
