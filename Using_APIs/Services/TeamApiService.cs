@@ -18,7 +18,7 @@ namespace Using_APIs.Services
                 RequestUri = new Uri("https://sportscore1.p.rapidapi.com/teams"),
                 Headers =
                 {
-                    { "x-rapidapi-key", "4ea8d7e6f9mshd31033cdadc032bp1b5777jsn07633bf1455a" },
+                    { "x-rapidapi-key", "" },
                     { "x-rapidapi-host", "sportscore1.p.rapidapi.com" },
                 },
             };
